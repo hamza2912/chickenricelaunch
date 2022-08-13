@@ -1,0 +1,118 @@
+body{
+    color: #3A2F2B;
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.bg-hero{
+    background-image: url(images/home.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-hero-container{
+    background-color: rgba(255, 255, 255, 0.70);
+}
+
+.olive{
+    right:0; 
+    top:10rem;
+}
+
+.text-red-800{
+    color: #ab0034
+}
+
+.bg-red-800{
+    background-color: #ab0034;
+}
+
+.bg-red{
+    background-color: #f3523e;
+    /* background-image: linear-gradient(to right, #f3523e, #b4bd00); */
+    /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.654), rgba(15, 10, 10, 0.419)), url(images/ranked.jpeg); */
+    /* background-size: cover; */
+    /* background-position: bottom; */
+}
+
+.bg-green{
+    background-color: #b4bd00;
+}
+
+input::-webkit-input-placeholder {
+  color: #3A2F2B;
+}
+
+.top-10{
+    top: 10rem;
+}
+
+.bottom-10{
+    bottom: 25rem;
+}
+
+.hamburger{
+    bottom: 0;
+    left: 5rem;
+}
+
+.text-yellow-800{
+    color: #CDB392;
+}
+
+.bg-orange-900{
+  background-color: #ffab00;
+}
+
+.btn{
+    transition: all 0.2s;
+}
+.btn:hover{
+    width: 8.5rem;
+    background-color: #c60841;
+}
+
+.btn2{
+    transition: all 0.2s;
+}
+.btn2:hover{
+    width: 62%;
+    background-color: #c60841;
+}
+
+@media screen and (max-width:990px) {
+    .olive{
+        right: -10px; 
+        top: 10rem;
+    }
+    .hamburger{
+        bottom: 0;
+        left: 17rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
